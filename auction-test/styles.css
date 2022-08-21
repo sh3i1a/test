@@ -1,0 +1,160 @@
+body {
+    background-color: #F0F4FE;
+    margin: 0 auto;
+    padding: 10px;
+    max-width: 80%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+    padding: 12px 15px;
+    text-decoration: none;
+    border-radius: 30px;
+}
+
+/******************/
+/* HEADER - NAV BAR */
+/******************/
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    font-size: 20px;
+    font-weight: bold;
+    gap: 10px;
+}
+
+.signup {
+    color: #306AF1;
+}
+
+.login {
+    background-color: #306AF1;
+    color: #F0F4FE;
+}
+
+/******************/
+/* SEARCH BAR */
+/******************/
+
+form {
+    margin: 50px auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+}
+
+form>div {
+    background-color: white;
+    padding: 20px 15px;
+    border-radius: 30px;
+    flex-grow: 2;
+}
+
+.input {
+    border: none;
+    font-size: 16px;
+}
+
+.input:focus {
+    outline: none;
+}
+
+form>button {
+    padding: 12px 12px;
+    border-radius: 30px;
+    border: none;
+    background-color: #306AF1;
+    color: #F0F4FE;
+    font-size: 16px;
+    flex-grow: 1;
+}
+
+/******************/
+/* ITEM CARDS */
+/******************/
+
+.items {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.card {
+    background-color: white;
+    border-radius: 35px;
+    padding: 12px;
+    box-shadow: 2px 2px 20px #E2EAFD;
+}
+
+img {
+    border-radius: 35px;
+    width: 100%;
+} 
+
+.itemTitle {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 0 0 12px 0;
+}
+
+.light {
+    font-size: 14px;
+    color: grey;
+    margin: 0;
+}
+
+.strong {
+    margin: 5px 0;
+}
+
+.seller {
+    display: flex;
+    align-items: center;
+}
+
+.seller>a {
+    color: black;
+    font-size: 14px;
+}
+
+.itemInfo {
+    display: flex;
+    gap: 10%;
+    margin: 10px 0;
+}
+
+.itemButton {
+    padding: 12px 10px;
+    border-radius: 30px;
+    background-color: black;
+    text-align: center;
+    margin-top: 12px;
+}
+
+.itemButton>a {
+    color: white;
+}
+
+/******************/
+/* MEDIA QUERIES */
+/******************/
+
+@media  screen and (min-width: 850px) {
+    form {
+        max-width: 70%;
+    }
+
+    .items{
+        justify-content: center;
+    }
+
+    .card{
+        max-width: 30%;
+    }
+} 
