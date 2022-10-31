@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Connexion</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <p>Enchères</p>
+      </div>
+      <div class="buttons">
+        <button class="login">Se connecter</button>
+        <button class="signup">S'inscrire</button>
+      </div>
+    </header>
+
+    <main>
+      <h1>Connectez-vous</h1>
+      <h2>C'est un plaisir de vous revoir !</h2>
+      <form action="">
+        <label for="id">Identifiant</label>
+        <input
+          type="text"
+          name="id"
+          id="id"
+          placeholder="Entrez votre identifiant"
+        />
+        <label for="pwd">Mot de passe</label>
+        <input type="text" name="pwd" id="pwd" placeholder="••••••••" />
+        <div class="remember">
+          <input type="checkbox" name="remember" id="remember" />
+          <label for="remember">Se souvenir de moi</label>
+          <a href="">Mot de passe oublié</a>
+        </div>
+        <button type="submit">Connexion</button>
+      </form>
+      <p>Vous n'avez pas de compte ? <a href="">Inscrivez-vous</a></p>
+    </main>
+  </body>
+</html>
