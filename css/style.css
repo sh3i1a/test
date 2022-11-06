@@ -1,0 +1,35 @@
+.hero {
+    width: 60vw;
+    margin: auto;
+    position: relative;
+    margin-top: 10vh;
+    padding: 24px;
+}
+
+.hero img {
+    width: 6rem;
+    position: absolute;
+}
+
+img[src*="1"] {
+    right: -16px;
+    top: -16px;
+}
+
+img[src*="2"] {
+    bottom: -124px;
+}
+
+img[src*="3"] {
+    left: -124px;
+    top: 24px;
+}
+
+img[src*="4"] {
+    right: 0px;
+    bottom: 0px;
+}
+
+img[src*="5"] {
+    top: 0px;
+}
