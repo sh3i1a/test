@@ -1,8 +1,8 @@
-const Card = (text, author) => {
+const Card = (props) => {
     return (
         <div>
-            <p>{text}</p>
-            <h3>{author}</h3>
+            <p>{props.text}</p>
+            <h3>{props.author}</h3>
         </div>
     )
 }

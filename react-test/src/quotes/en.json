@@ -1,8 +1,10 @@
 [{
+    "id" : "1",
     "text" : "Every person has two educations, one which he receives from others, and one, more important, which he gives to himself.",
     "author" : "Edward Gibbon"
 },
 {
+    "id" : "2",
     "text" : "We are what we repeatedly do. Excellence, then, is not an act, but a habit.",
     "author" : "Aristotle"
 }]

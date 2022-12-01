@@ -12,7 +12,8 @@ const App = () => {
   function displayQuotes(lang) {
     setQuotes([]);
     lang.map((quote) => {
-      setQuotes([quotes, quote]);
+      setQuotes([...quotes, quote]);
+      console.log(quotes);
     });
   }
 
@@ -24,11 +25,11 @@ const App = () => {
       </div>
       <div>
          {quotes.map((quote) => {
-          <Card text={quote.text} author={quote.author}/>
+          <Card key={quote.id} text={quote.text} author={quote.author}/>
          })}
       </div>
     </div>
   );
-};
+}
 
 export default App;
