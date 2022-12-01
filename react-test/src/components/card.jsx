@@ -1,4 +1,4 @@
-const card = (author, text) => {
+const Card = (text, author) => {
     return (
         <div>
             <p>{text}</p>
@@ -6,3 +6,5 @@ const card = (author, text) => {
         </div>
     )
 }
+
+export default Card;

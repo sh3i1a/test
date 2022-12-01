@@ -1,10 +1,7 @@
 const Tab = (label) => {
-
-    function handleClick () {
-
-    }
-
     return (
-        <h2 onClick={handleClick}>{label}</h2>
+        <h2>{label}</h2>
     )
 }
+
+export default Tab;
