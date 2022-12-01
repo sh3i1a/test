@@ -1,13 +1,10 @@
-const { useState } = require("react")
+const Tab = (label) => {
 
-const tab = (label) => {
-    const [language, setLanguage] = useState({label});
+    function handleClick () {
 
-    function click () {
-        setLanguage({label});
     }
 
     return (
-        <h2 onClick={click}>{label}</h2>
+        <h2 onClick={handleClick}>{label}</h2>
     )
 }
