@@ -1,9 +1,8 @@
-const card = (title, author, text) => {
+const card = (author, text) => {
     return (
         <div>
-            <h3>{title}</h3>
-            <h4>{author}</h4>
             <p>{text}</p>
+            <h3>{author}</h3>
         </div>
     )
 }
