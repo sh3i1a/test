@@ -10,11 +10,7 @@ const App = () => {
   const [quotes, setQuotes] = useState([]);
 
   function displayQuotes(lang) {
-    setQuotes([]);
-    lang.map((quote) => {
-      setQuotes([...quotes, quote]);
-      console.log(quotes);
-    });
+    setQuotes(lang);
   }
 
   return (
@@ -25,7 +21,7 @@ const App = () => {
       </div>
       <div>
          {quotes.map((quote) => {
-          <Card key={quote.id} text={quote.text} author={quote.author}/>
+          return <Card key={quote.id} text={quote.text} author={quote.author}/>
          })}
       </div>
     </div>
